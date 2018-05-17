@@ -1,4 +1,4 @@
-var five = require("johnny-five");
+/*var five = require("johnny-five");
 var board = new five.Board();
 
 board.on("ready", function() {
@@ -6,7 +6,7 @@ board.on("ready", function() {
   var fR = new five.servo(11);
   var rL = new five.servo(9);
   var rR = new five.servo(8);*/
-  var lap = 0;
+ /* var lap = 0;
   var LLs = new five.Servos([12, 8]);
   var RLs = new five.Servos([11, 9]);
   
@@ -37,4 +37,4 @@ function stop(){
     LLs.stop();
     RLs.stop();
 }    
-});
+});*/
