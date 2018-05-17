@@ -1,0 +1,19 @@
+{
+  "name": "spot-mini-divyanshg809",
+  "version": "1.0.0",
+  "description": "Just for vaccations",
+  "main": "index.js",
+  "keywords": [
+    "socket.io",
+    "spot-mini-divyanshg809"
+  ],
+  "dependencies": {
+    "express": "4.9.x",
+    "socket.io": "latest"
+  },
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "Damien Arrachequesne",
+  "license": "MIT"
+}
