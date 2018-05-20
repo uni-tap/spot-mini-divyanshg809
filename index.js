@@ -1,7 +1,7 @@
-const express = require('express');
-const app = express();
-const http = require('http').Server(app);
-const io = require('socket.io')(http);
-const port = process.env.PORT || 3000;
+var http = require('http');
 
-http.listen(port, () => console.log((new Date()) +' => SERVER LISTENING ON PORT => ' + port));
+//create a server object:
+http.createServer(function (req, res) {
+  res.write('Hello World!'); //write a response to the client
+  res.end(); //end the response
+}).listen(8080); //the server object listens on port 8080
